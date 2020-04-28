@@ -30,6 +30,13 @@ export const Container = styled.div<ContainerProps>`
         &:hover {
           opacity: 0.6;
         }
+
+        &.active {
+          width: 73px;
+          background: none;
+          padding: 10px 0px;
+          border-bottom: 2px solid #ff872c;
+        }
       }
     }
   }
